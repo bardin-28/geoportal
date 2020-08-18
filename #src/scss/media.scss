@@ -1,0 +1,389 @@
+/* 992 - 1200 px [Laptop]*/
+@media screen and (max-width: 1200px) {
+    .about-section {
+        .about-cardRow {
+            &>div {
+                margin-right: 15px;
+                margin-bottom: 15px;
+                width: 210px;
+                height: 210px;
+            }
+        }
+    }
+
+    .contacts-section {
+        form {
+            .contact-fullName {
+                input {
+                    width: 220px;
+                }
+            }
+        }
+    }
+}
+
+/* 768 - 992 px [Tablet]*/
+@media screen and (max-width: 992px) {
+    .header-section {
+        .header-caption {
+            display: none;
+        }
+
+        .header-mobMenuBtn {
+            display: block;
+        }
+    }
+
+    .offer-section {
+        .main-slideTitle h1 {
+            font-size: 42px;
+        }
+    }
+
+    .data-section {
+        padding-top: 75px;
+        padding-bottom: 65px;
+
+        .data-title {
+            text-align: center;
+            margin-bottom: 60px;
+
+            h2 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .about-section {
+        padding-top: 60px;
+        padding-bottom: 100px;
+
+        .about-title {
+            text-align: center;
+
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+        }
+
+        .about-cardRow {
+            margin-top: 40px;
+            justify-content: space-around;
+
+            &>div {
+                margin-right: 0px;
+                width: 250px;
+                height: 250px;
+            }
+        }
+
+        .aboutTabs {
+            margin-top: 60px;
+        }
+
+        .aboutTabs-item {
+            width: 100%;
+            display: block;
+
+            img {
+                width: 20%;
+            }
+
+            div:last-child {
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 25px;
+            }
+        }
+    }
+
+    .contacts-section {
+        form {
+            .contact-fullName {
+                input {
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
+
+/* 576px - 768px [Large Mobile]*/
+@media screen and (max-width: 767px) {
+    .offer-section {
+        .main-slideTitle {
+            width: 450px;
+
+            h1 {
+                font-size: 32px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .main-slideBtn {
+            margin-top: 40px;
+        }
+    }
+
+    .data-section {
+        .data-item {
+            width: 370px;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
+    }
+
+    .about-section {
+        .about-cardRow {
+            &>div {
+                width: 240px;
+                height: 240px;
+            }
+        }
+    }
+
+    .contacts-section {
+        .contacts-cont {
+            display: block;
+
+            ul {
+                display: block;
+                width: 220px;
+                margin: 0 auto;
+                margin-bottom: 35px;
+            }
+        }
+
+        form {
+            .contact-fullName {
+                input {
+                    width: 240px;
+                }
+            }
+        }
+    }
+}
+
+/* 480px - 576px [Medium Mobile]*/
+@media screen and (max-width: 575px) {
+    .header-section {
+        padding: 15px 0px;
+    }
+
+    .about-section {
+        .about-title {
+            p {
+                width: 385px;
+            }
+        }
+
+        .aboutTabs-item {
+            div:last-child {
+                width: 385px;
+            }
+
+        }
+
+        .aboutTabs-btns {
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+
+            li {
+                margin: 0 auto;
+                margin-bottom: 15px;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+
+            a {
+                display: inline-block;
+            }
+        }
+    }
+
+    .contacts-section {
+        .contacts-title {
+            h2 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        form {
+            .contact-fullName {
+                input {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+/* 320px - 479px [Small Mobile]*/
+@media screen and (max-width: 479px) {
+    .header-section {
+        .header-logo {
+            img {
+                display: none;
+            }
+
+            span {
+                margin-left: 0;
+                font-size: 32px;
+            }
+        }
+
+
+        .header-links {
+            font-size: 30px;
+        }
+
+    }
+
+    .offer-section {
+        padding-top: 50px;
+
+        .main-slideTitle {
+            margin: 0 auto;
+            text-align: center;
+            width: 290px;
+
+            h1 {
+                margin-top: 80px;
+            }
+        }
+
+        .main-slideBtn {
+            margin-top: 95px;
+        }
+
+        .swiper-slide {
+            div:last-of-type {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .swiper-pagination {
+            width: 100% !important;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            display: none;
+        }
+
+        .swiper-pagination-bullets {
+            bottom: 55px !important;
+        }
+    }
+
+    .data-section {
+        .data-title {
+            h2 {
+                font-size: 34px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .data-item {
+            width: 270px;
+        }
+    }
+
+    .about-section {
+        .about-title {
+            h2 {
+                font-size: 34px;
+            }
+
+            p {
+                font-size: 20px;
+                width: 250px;
+
+                &:last-child {
+                    font-size: 17px;
+                }
+            }
+        }
+
+        .about-cardInfo span {
+            font-size: 36px;
+        }
+
+        .aboutTabs-cont {
+            h2 {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .aboutTabs-item {
+            div:last-child {
+                font-size: 17px;
+                width: 250px;
+            }
+
+            img {
+                width: 30%;
+            }
+        }
+    }
+
+    .contacts-section {
+        padding-bottom: 40px;
+
+        .contacts-title {
+            margin-bottom: 30px;
+
+            h2 {
+                font-size: 27px;
+            }
+        }
+
+        form {
+            text-align: center;
+
+            .contact-fullName {
+                display: block;
+
+                &>div {
+                    margin-bottom: 20px;
+                }
+
+                input {
+                    width: 100%;
+                }
+
+                div:first-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .footer-section {
+        padding: 15px 0px;
+
+        .footer {
+            font-size: 11px;
+        }
+    }
+}
